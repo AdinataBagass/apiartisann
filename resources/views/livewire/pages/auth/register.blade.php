@@ -1,7 +1,6 @@
 <?php
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Validation\Rules;
-use Livewire\Attributes\Layout;
 use Livewire\Volt\Component;
 
 new #[Layout('layouts.guest')] class extends Component

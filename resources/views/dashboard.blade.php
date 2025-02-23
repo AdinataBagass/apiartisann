@@ -303,9 +303,9 @@
         <h1>Sagara Tungkal</h1>
         <button class="menu-toggle">&#9776;</button>
         <div class="nav">
-            <a href="#Halaman Utama">Halaman Utama</a>
-            <a href="#produk">Daftar Produk</a>
-            <a href="#kontak">Kontak</a>                            
+            <a href="{{route('dashboard')}}">Halaman Utama</a>
+            <a href="{{route('produk')}}">Daftar Produk</a>
+            <a href="{{route('pembelian.index')}}">Pembelian</a>                            
             <!-- <a href="#">Pembelian</a> -->
         </div>
     </div>
@@ -329,17 +329,17 @@
             <div class="product-card">
                 <img src='asset/Anadara_granosa.jpg' alt="Kerang Dara">
                 <h3>Kerang Dara</h3>
-                <p>Rp 75.000 / kg</p>
+                <p>Rp 65.000 / kg</p>
             </div>
             <div class="product-card">
                 <img src='asset/cumi-cumi.jpg' alt="Cumi-Cumi">
                 <h3>Cumi-Cumi</h3>
-                <p>Rp 65.000 / kg</p>
+                <p>Rp 57.000 / kg</p>
             </div>
             <div class="product-card">
                 <img src='asset/kepiting.jpg' alt="Kepiting">
                 <h3>Kepiting</h3>
-                <p>Rp 65.000 / kg</p>
+                <p>Rp 60.000 / kg</p>
             </div>
         </div>
     </div>
